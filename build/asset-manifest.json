@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/static/js/main.e69297e6.chunk.js",
+    "main.js.map": "/static/js/main.e69297e6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.db2d5918.js",
+    "runtime-main.js.map": "/static/js/runtime-main.db2d5918.js.map",
+    "static/js/2.546b3020.chunk.js": "/static/js/2.546b3020.chunk.js",
+    "static/js/2.546b3020.chunk.js.map": "/static/js/2.546b3020.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.546b3020.chunk.js.LICENSE.txt": "/static/js/2.546b3020.chunk.js.LICENSE.txt",
+    "static/media/AaronCircle.4c0902bb.png": "/static/media/AaronCircle.4c0902bb.png",
+    "static/media/blogwebsite.7a55a35a.png": "/static/media/blogwebsite.7a55a35a.png",
+    "static/media/diceegame.1c6a73f0.png": "/static/media/diceegame.1c6a73f0.png",
+    "static/media/drumkit.7ee87490.png": "/static/media/drumkit.7ee87490.png",
+    "static/media/memoryapp.3f26119a.png": "/static/media/memoryapp.3f26119a.png",
+    "static/media/mountain.82e0b277.png": "/static/media/mountain.82e0b277.png",
+    "static/media/resume.4a4a4d27.png": "/static/media/resume.4a4a4d27.png",
+    "static/media/secretsapp.80283a38.png": "/static/media/secretsapp.80283a38.png",
+    "static/media/teladog.a3662c1f.png": "/static/media/teladog.a3662c1f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db2d5918.js",
+    "static/js/2.546b3020.chunk.js",
+    "static/js/main.e69297e6.chunk.js"
+  ]
+}
