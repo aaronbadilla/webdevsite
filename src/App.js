@@ -204,7 +204,7 @@ return (
         </div>
         <div className="employment-resources">
           <a
-            href="https://drive.google.com/file/d/1U54t39M-s7eM71ph-0TDlI2t-9Cpc1iz/view?usp=sharing"
+            href="https://drive.google.com/file/d/18P1W9d_ekjFFm3zh0xbFhadNxmOP951Y/view?usp=sharing"
             className="resume"
             target="_blank"
             rel="noopener noreferrer"

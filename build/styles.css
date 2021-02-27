@@ -82,18 +82,24 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: stretch;
   width: 85%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
   line-height: 1;
+
+}
+
+@media only screen and (max-width: 731px) {
+  .action-bar {
+    justify-content: center;
+  }
 }
 
 .header-title {
   display: flex;
-
 }
 
 .header-nav {
