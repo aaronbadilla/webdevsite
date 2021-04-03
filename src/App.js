@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import "./App.css"
 import AaronCircle from "./images/AaronCircle.png";
 import computer from "./images/computer.png";
 import contract from "./images/contract.png";
