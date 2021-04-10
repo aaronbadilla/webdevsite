@@ -23,7 +23,7 @@ export default function App(props) {
     <Slide direction="down" in={true} timeout={{
         enter: 500
       }} style={{
-        transitionDelay: 3500
+        transitionDelay: 2500
       }}>
       <header>
         <div className="action-bar">
@@ -50,6 +50,7 @@ export default function App(props) {
     <div className="top-container">
 
       <div className="header-text">
+
         <Fade in={true} style={{
             transitionDelay: "500ms"
           }} timeout={{
@@ -57,42 +58,67 @@ export default function App(props) {
           }}>
           <h1>I'm Aaron</h1>
         </Fade>
-        <Fade in={true} style={{
-            transitionDelay: "2500ms"
-          }} timeout={{
-            enter: 500
-          }}>
+
+
+        <Fade in={true} 
+              style={{
+                transitionDelay: "1500ms"
+              }} 
+             timeout={{
+                enter: 500
+             }}>
           <h2>a full stack web developer</h2>
         </Fade>
       </div>
 
-      <Slide direction="left" in={true} timeout={{
-          enter: 1000
+      <Fade in={true} timeout={{
+          enter: 1000,
         }} style={{
-          transitionDelay: 1000
-        }} mountOnEnter="mountOnEnter">
+          transitionDelay: 2500,
+        }} >
+      <div className="sun">
+        <i class="fas fa-sun fa-10x"></i>
+      </div>
+      </Fade>
+
+      <Slide direction="left" in={true} timeout={{
+          enter: 100000,
+        }} style={{
+          transitionDelay: 2500
+        }} mountOnEnter={true}>
         <div className="top-cloud" {...props}>
           <i className="fas fa-cloud fa-7x cloud"></i>
         </div>
       </Slide>
-      <Slide direction="right" in={true} timeout={{
-          enter: 1000
+
+      <Slide direction="left" in={true} timeout={{
+          enter: 80000,
         }} style={{
-          transitionDelay: 1250
-        }} mountOnEnter="mountOnEnter">
-        <div className="bottom-cloud" {...props}>
+          transitionDelay: 2500
+        }} mountOnEnter={true}>
+        <div className="lowest-cloud" {...props}>
           <i className="fas fa-cloud fa-5x cloud"></i>
         </div>
       </Slide>
 
+      <Slide direction="right" in={true} timeout={{
+          enter: 90000
+        }} style={{
+          transitionDelay: 2500
+        }} >
+        <div className="bottom-cloud" {...props}>
+          <i className="fas fa-cloud fa-4x cloud"></i>
+        </div>
+      </Slide>
+
       <div className="mountain">
-        <Slide direction="up" in={true} timeout={{
+        <Fade direction="up" in={true} timeout={{
             enter: 500
           }} style={{
-            transitionDelay: 1500
+            transitionDelay: 2500
           }} mountOnEnter="mountOnEnter">
           <img src={mountain} alt="mountain-img"/>
-        </Slide>
+        </Fade>
       </div>
     </div>
     <div className="profile-container" id="about">

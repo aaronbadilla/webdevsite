@@ -129,17 +129,40 @@ header {
   .top-container h2 {
     font-style: italic;
   }
+
+  .sun {
+      position: absolute;
+      right: 400px;
+      top:60px;
+      color: #fce9a9;
+      animation: infinite-spinning 20s linear infinite
+  }
+
+  @keyframes infinite-spinning {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
   
   .bottom-cloud {
     position: absolute;
-    left: 300px;
+    right: -200px;
     bottom: 300px;
   }
   
   .top-cloud {
     position: absolute;
-    right: 300px;
+    left: -200px;
     top: 70px;
+  }
+
+  .lowest-cloud {
+    position: absolute;
+    left: -200px;
+    bottom: 200px;
   }
   
   .cloud {
@@ -149,7 +172,7 @@ header {
   .mountain {
     line-height: 0;
     margin-right:auto;
-    margin-right:auto
+    margin-right:auto;
   }
   
   /* PROFILE */
