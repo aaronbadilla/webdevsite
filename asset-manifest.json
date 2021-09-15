@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/webdevsite/static/css/main.26deb2c1.chunk.css",
-    "main.js": "/webdevsite/static/js/main.1da5b926.chunk.js",
-    "main.js.map": "/webdevsite/static/js/main.1da5b926.chunk.js.map",
+    "main.css": "/webdevsite/static/css/main.facbf877.chunk.css",
+    "main.js": "/webdevsite/static/js/main.e4ae7307.chunk.js",
+    "main.js.map": "/webdevsite/static/js/main.e4ae7307.chunk.js.map",
     "runtime-main.js": "/webdevsite/static/js/runtime-main.66730dc0.js",
     "runtime-main.js.map": "/webdevsite/static/js/runtime-main.66730dc0.js.map",
     "static/js/2.10f0e3eb.chunk.js": "/webdevsite/static/js/2.10f0e3eb.chunk.js",
     "static/js/2.10f0e3eb.chunk.js.map": "/webdevsite/static/js/2.10f0e3eb.chunk.js.map",
     "index.html": "/webdevsite/index.html",
-    "static/css/main.26deb2c1.chunk.css.map": "/webdevsite/static/css/main.26deb2c1.chunk.css.map",
+    "static/css/main.facbf877.chunk.css.map": "/webdevsite/static/css/main.facbf877.chunk.css.map",
     "static/js/2.10f0e3eb.chunk.js.LICENSE.txt": "/webdevsite/static/js/2.10f0e3eb.chunk.js.LICENSE.txt",
     "static/media/AaronCircle.4c0902bb.png": "/webdevsite/static/media/AaronCircle.4c0902bb.png",
     "static/media/blogwebsite.7a55a35a.png": "/webdevsite/static/media/blogwebsite.7a55a35a.png",
+    "static/media/crwnclothing.5ccc378e.png": "/webdevsite/static/media/crwnclothing.5ccc378e.png",
     "static/media/diceegame.1c6a73f0.png": "/webdevsite/static/media/diceegame.1c6a73f0.png",
     "static/media/drumkit.7ee87490.png": "/webdevsite/static/media/drumkit.7ee87490.png",
     "static/media/memoryapp.3f26119a.png": "/webdevsite/static/media/memoryapp.3f26119a.png",
@@ -23,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.66730dc0.js",
     "static/js/2.10f0e3eb.chunk.js",
-    "static/css/main.26deb2c1.chunk.css",
-    "static/js/main.1da5b926.chunk.js"
+    "static/css/main.facbf877.chunk.css",
+    "static/js/main.e4ae7307.chunk.js"
   ]
 }
