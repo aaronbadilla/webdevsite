@@ -1,0 +1,10 @@
+To-Do Post Launch
+
+1. Make Navbar Mobile Compatible
+  -Hamburger Dropdown Menu
+  -Good article here: https://www.aleksandrhovhannisyan.com/blog/responsive-navbar-without-bootstrap/#what-were-building
+
+2. Integrate Newsletter Signup
+  -This may be a bit more involved as I will need to create an email templater/make sure people can unsubscribe 
+
+3. Automatic Date Update

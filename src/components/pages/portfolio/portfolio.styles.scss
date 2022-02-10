@@ -1,0 +1,78 @@
+  /* PORTFOLIO */
+
+  .custom-shape-divider-top-1642097958 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1642097958 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 69px;
+}
+
+.custom-shape-divider-top-1642097958 .shape-fill {
+    fill: #FFFFFF;
+}
+  
+  .portfolio-container {
+    background-color: #004994;
+    padding: 100px 0;
+    position: relative;
+  }
+  
+  .portfolio {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    opacity: 0;
+  }
+
+  .animate-portfolio {
+    animation: animate-portfolio 1s ease-out forwards;
+
+    @keyframes animate-portfolio {
+        from {
+            opacity: 0;
+        }
+      
+        to {
+            opacity: 1;
+        }
+    }
+}
+  
+  .portfolio h2 {
+    color: white;
+  }
+  
+  .portfolio h3 {
+    color: white;
+  }
+
+  .custom-shape-divider-bottom-1642098124 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1642098124 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 51px;
+}
+
+.custom-shape-divider-bottom-1642098124 .shape-fill {
+    fill: #CFECFF;
+}

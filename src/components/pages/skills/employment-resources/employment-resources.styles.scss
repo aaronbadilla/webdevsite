@@ -1,0 +1,111 @@
+  /* PROFESSIONAL RESOURCES */
+  
+  .employment-resources {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin: 60px auto 0 auto;
+    width: 80%;
+    opacity: 0
+  }
+
+  .animate-employment-resources {
+    animation: animate-employment-resources 1s ease-out forwards;
+
+    @keyframes animate-employment-resources {
+        from {
+            opacity: 0;
+        }
+      
+        to {
+            opacity: 1;
+        }
+    }
+  }
+
+
+  
+  .employment-resources h3 {
+    width: 50%;
+    margin: auto;
+  }
+  
+  .employment-resources a {
+    display: flex;
+    margin: 10px auto;
+    width: 350px;
+    height: 150px;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.5s ease-out;
+  }
+  
+  .employment-resources a:hover {
+    background-color: #fafafa;
+    border: solid;
+    border-color: #f0f0f0;
+    border-width: 1px;
+  }
+  
+  .resume {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    text-align: left;
+  }
+  
+  .resume-pic {
+    width: 25%;
+    margin: auto;
+  }
+  
+  .linkedin {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    text-align: left;
+  }
+  
+  .linkedin-pic {
+    width: 25%;
+    margin: auto;
+  }
+  
+  .twitter {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    text-align: left;
+  }
+  
+  .twitter-pic {
+    width: 25%;
+    margin: auto;
+  }
+
+  .custom-shape-divider-bottom-1642098290 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1642098290 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 51px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1642098290 .shape-fill {
+    fill: #FFFFFF;
+}

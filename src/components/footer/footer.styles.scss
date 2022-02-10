@@ -1,0 +1,40 @@
+  /* FOOTER */
+  
+  .bottom-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 0;
+    padding: 15px;
+    background-color: #cfecff;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 10px;
+    transition: all 0.5s ease-out;
+  }
+  
+  .footer-link:hover {
+    color: white;
+  }
+  
+  .footer-copyright {
+    font-size: 10px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .footer-copyright p {
+    color: #3f93e8;
+  }
+  
+  .image-credit {
+    font-size: 10px;
+    width: 25%;
+    text-align: center;
+    margin: 20px auto 20px auto;
+    text-decoration: none;
+  }

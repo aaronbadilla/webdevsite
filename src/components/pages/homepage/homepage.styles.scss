@@ -1,0 +1,47 @@
+ /* LANDING PAGE */
+  
+ .homepage {
+    background-color: #cfecff;
+    padding-top: 120px;
+    position: relative;
+    height: 100vh;
+  }
+
+  .homepage-text {
+    margin-top: 10vh;  
+  }
+
+  .custom-shape-divider-bottom-1642097161 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 2;
+  }
+
+.custom-shape-divider-bottom-1642097161 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 96px;
+}
+
+.custom-shape-divider-bottom-1642097161 .shape-fill {
+    fill: #FFFFFF;
+}
+  
+  .top-container h2 {
+    font-style: italic;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

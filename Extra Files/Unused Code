@@ -1,0 +1,170 @@
+Unused Email code
+
+"homepage": "http://aaronbadilla.github.io/webdevsite",
+
+App.js: HTML
+
+// <form action="/" method="POST" id="form">
+//   <label htmlFor="name">Name</label>
+//   <input
+//     type="text"
+//     name="name"
+//     id="name"
+//     value={email.name}
+//     className="email-input"
+//     onChange={handleChange}
+//   />
+//   <label htmlFor="email">Email</label>
+//   <input
+//     type="text"
+//     name="email"
+//     id="email"
+//     value={email.email}
+//     className="email-input"
+//     onChange={handleChange}
+//   />
+//   <label htmlFor="subject">Subject</label>
+//   <input
+//     type="text"
+//     name="subject"
+//     id="subject"
+//     value={email.subject}
+//     className="email-input"
+//     onChange={handleChange}
+//   />
+//   <label htmlFor="message">Message</label>
+//   <textarea
+//     id="message"
+//     name="message"
+//     value={email.message}
+//     onChange={handleChange}
+//   ></textarea>
+//   <input
+//     type="button"
+//     name="Email Me!"
+//     value="Send"
+//     className="email-button"
+//     onClick={handleClick}
+//   />
+// </form>
+
+App.js: Javascript
+
+// const [email, setEmail] = useState({
+//   name: "",
+//   email: "",
+//   subject: "",
+//   message: ""
+// });
+//
+// function handleChange(event) {
+//   const { name, value } = event.target;
+//
+//   setEmail((prevEmail) => {
+//     return {
+//       ...prevEmail,
+//       [name]: value
+//     };
+//   });
+// }
+//
+// function handleClick() {
+//
+//   const requestOptions = {
+//       method: 'POST',
+//       headers: {
+//         'Content-Type': 'application/x-www-form-urlencoded'
+//   },
+//       body:JSON.stringify(email)
+//   };
+//
+//   fetch('/send', requestOptions)
+//     .then(res => {
+//       console.log("Request complete!", res)
+//     });
+//
+//
+//   setEmail({
+//     name: "",
+//     email: "",
+//     subject: "",
+//     message: ""
+//   })
+// }
+
+Server.js: Javascript
+
+// const nodemailer = require('nodemailer');
+// const creds = require('./config');
+
+// const transport = {
+//   host: 'smtp.gmail.com', // e.g. smtp.gmail.com
+//   auth: {
+//     user: creds.USER,
+//     pass: creds.PASS
+//   }
+// }
+//
+// const transporter = nodemailer.createTransport(transport)
+//
+// transporter.verify((error, success) => {
+//   if (error) {
+//     console.log(error);
+//   } else {
+//     console.log('All works fine, congratz!');
+//   }
+// });
+//
+// app.use(express.json()); app.post('/send', (req, res, next) => {
+//   const name = req.body.name
+//   const email = req.body.email
+//   const subject = req.body.subject
+//   const message = req.body.message
+//
+//
+//   var mail = {
+//     from: name,
+//     to: 'aarondbadilla@gmail.com',
+//     subject: subject,
+//     html: message
+//   }
+//
+//   transporter.sendMail(mail, (err, data) => {
+//     if (err) {
+//       res.json({
+//         msg: 'fail'
+//       })
+//     } else {
+//       res.json({
+//         msg: 'success'
+//       })
+//     }
+//   })
+// })
+
+CSS
+
+form {
+  width: 100%;
+}
+
+label {
+  font-family: "Montserrat", sans-serif;
+  color: #3f93e8;
+  margin: 10px;
+}
+
+textarea {
+  display: block;
+  width: 95%;
+  margin: 10px;
+  height: 250px;
+  border-radius: 5px;
+  border-color: #bfbfbf;
+  font-family: "Montserrat", sans-serif;
+}
+
+textarea:focus {
+  border-color: #004994;
+  outline: none;
+}

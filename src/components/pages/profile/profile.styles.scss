@@ -1,0 +1,32 @@
+  /* PROFILE */
+  
+  .profile-container {
+    background-color: white;
+    padding: 100px 0;
+    position: relative;
+  }
+  
+  .profile {
+    width: 420px;
+    margin: 0 auto 0 auto;
+    font-weight: 900;
+    opacity: 0;
+
+    @media only screen and (max-width: 430px) {
+      width: 300px
+  }
+  }
+  
+  .animate-profile {
+    animation: animate-profile 1s ease-out forwards;
+
+    @keyframes animate-profile {
+        from {
+            opacity: 0;
+        }
+      
+        to {
+            opacity: 1;
+        }
+    }
+}

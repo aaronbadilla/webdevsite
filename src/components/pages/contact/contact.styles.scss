@@ -1,0 +1,145 @@
+  /* CONTACT */
+  
+  .contact-me {
+    position: relative;
+    padding: 100px 0;
+    opacity: 0;
+    @media only screen and (max-width: 700px) {
+      padding: 50px 0 100px 0
+  }
+  }
+  
+  .contact {
+    display: flex;
+    width: 90%;
+    margin: 0 auto 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contact-container {
+    width: 700px;
+    margin:auto;
+    padding: 40px 0 80px 0;
+  
+    @media only screen and (max-width: 700px) {
+      width: 350px
+  }
+  }
+  
+  .explain-contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+    height: auto;
+    margin: 40px auto;
+
+    @media only screen and (max-width: 700px) {
+      width: 350px
+  }
+  }
+  
+  .explain-contact img {
+    display: flex;
+    height: 150px;
+    padding: 0 10px 10px 10px;
+    margin: auto;
+  }
+  
+  .email-cta {
+    text-align: left;
+    display: flex;
+    width: 65%;
+    margin: auto;
+
+    @media only screen and (max-width: 700px) {
+      width: 80%;
+      text-align: center;
+      margin-top: 20px;
+  }
+  }
+  
+  .email-form {
+    text-align: center;
+    display: flex;
+    height: 30px;
+    width: 50%;
+  }
+  
+  .email-input {
+    display: block;
+    line-height: 1.5rem;
+    margin: 10px;
+    width: 50%;
+    font-family: "Montserrat", sans-serif;
+    border-color: #bfbfbf;
+    border-radius: 5px;
+    border-width: 0.5px;
+    border-style: solid;
+  }
+  
+  .email-input:focus {
+    border-color: #004994;
+    outline: none;
+  }
+  
+  .email-button {
+    line-height: 1.5rem;
+    margin: 10px;
+    background-color: #cfecff;
+    color: #004994;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border-color: #f0f0f0;
+    border-width: 1px;
+    border-style: solid;
+    text-decoration: none;
+    margin: auto;
+    padding: 20px;
+    display: block;
+    transition: all 0.5s ease-out;
+  }
+  
+  .email-button:hover {
+    background-color: #004994;
+    color: #fafafa;
+  }
+
+  .animate-contact-me {
+    animation: animate-contact-me 1s ease-out forwards;
+
+    @keyframes animate-contact-me {
+        from {
+            opacity: 0;
+        }
+      
+        to {
+            opacity: 1;
+        }
+    }
+}
+
+.custom-shape-divider-bottom-1643309337 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1643309337 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 60px;
+}
+
+.custom-shape-divider-bottom-1643309337 .shape-fill {
+  fill: #CFECFF;
+}
