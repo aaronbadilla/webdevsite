@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/webdevsite/static/css/main.2a23a311.chunk.css",
+    "main.css": "/webdevsite/static/css/main.a7649a72.chunk.css",
     "main.js": "/webdevsite/static/js/main.52d9f56b.chunk.js",
     "main.js.map": "/webdevsite/static/js/main.52d9f56b.chunk.js.map",
     "runtime-main.js": "/webdevsite/static/js/runtime-main.66730dc0.js",
@@ -8,7 +8,7 @@
     "static/js/2.b4b55a35.chunk.js": "/webdevsite/static/js/2.b4b55a35.chunk.js",
     "static/js/2.b4b55a35.chunk.js.map": "/webdevsite/static/js/2.b4b55a35.chunk.js.map",
     "index.html": "/webdevsite/index.html",
-    "static/css/main.2a23a311.chunk.css.map": "/webdevsite/static/css/main.2a23a311.chunk.css.map",
+    "static/css/main.a7649a72.chunk.css.map": "/webdevsite/static/css/main.a7649a72.chunk.css.map",
     "static/js/2.b4b55a35.chunk.js.LICENSE.txt": "/webdevsite/static/js/2.b4b55a35.chunk.js.LICENSE.txt",
     "static/media/AaronCircle.4c0902bb.png": "/webdevsite/static/media/AaronCircle.4c0902bb.png",
     "static/media/Official-Logo-Website-Pink.0130b48d.png": "/webdevsite/static/media/Official-Logo-Website-Pink.0130b48d.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.66730dc0.js",
     "static/js/2.b4b55a35.chunk.js",
-    "static/css/main.2a23a311.chunk.css",
+    "static/css/main.a7649a72.chunk.css",
     "static/js/main.52d9f56b.chunk.js"
   ]
 }
