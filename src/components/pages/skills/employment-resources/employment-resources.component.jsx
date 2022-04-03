@@ -16,7 +16,7 @@ const EmploymentResources = () => {
 
     return (
         <div ref={ref} className={`employment-resources ${inView ? 'animate-employment-resources' : null}`}>
-        <a href="https://drive.google.com/file/d/1DkuJeur7syIlSL9f3rPys67qgNuXkE5M/view?usp=sharing" className="resume" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1Nb02ZZK1bz-b7Sxmf-hXNM1yWCYATj2C/view?usp=sharing" className="resume" target="_blank" rel="noopener noreferrer">
           <div className="resume">
             <img src={resume} alt="" className="resume-pic"/>
             <h3>

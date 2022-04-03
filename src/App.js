@@ -9,8 +9,7 @@ import Skills from './components/pages/skills/skills.component'
 import Contact from './components/pages/contact/contact.component'
 import Footer from './components/footer/footer.component'
 
-export default function App(props) {
-  const year = new Date().getFullYear();
+export default function App() {
 
   return (
   <div>
