@@ -28,9 +28,13 @@ function ProjectCard(props) {
         <CardContent>
           <p>{props.blurb} </p>
           <p>{props.writtenWith}</p>
-          <p>
+          {props.noCode ?
+            <p>No code available for this project</p> :
+            <p>
             Check out the <a href={props.githubLink}>code</a> on GitHub
-          </p>
+            </p>
+          }
+
         </CardContent>
       </Card>
     </Grid>

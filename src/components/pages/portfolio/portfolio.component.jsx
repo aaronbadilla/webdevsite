@@ -1,6 +1,7 @@
 import React from 'react'
 import './portfolio.styles.scss'
 
+import ProjectCard from "../../ProjectCard/ProjectCard";
 import {Grid} from "@material-ui/core";
 
 import diceegame from "../../../images/diceegame.png";
@@ -9,9 +10,10 @@ import blogwebsite from "../../../images/blogwebsite.png";
 import memoryapp from "../../../images/memoryapp.png";
 import teladog from "../../../images/teladog.png";
 import secretsapp from "../../../images/secretsapp.png";
-import ProjectCard from "../../ProjectCard/ProjectCard";
+
 import crwnclothing from "../../../images/crwnclothing.png"; 
-import flamingocoin from "../../../assets/Official-Logo-Website-Pink.png";
+import flamingocoin from "../../../assets/flamingo-coin-screenshot.png";
+import vceh from "../../../assets/vceh.png"
 
 import { useInView } from 'react-intersection-observer';
 
@@ -44,7 +46,7 @@ const Portfolio = () => {
             title="Flamingo Coin Website" 
             webLink="https://aaronbadilla.github.io/flamingo-coin/" 
             image={flamingocoin} blurb='Cryptocurrency Website' 
-            writtenWith='Tools: React, Sass' 
+            writtenWith='Tools: HTML, Javascript, React, Sass' 
             githubLink='https://github.com/aaronbadilla/flamingo-coin'/>
           <ProjectCard 
             title="NFT Artist Gallery" 
@@ -53,6 +55,14 @@ const Portfolio = () => {
             blurb="NFT Gallery" 
             writtenWith="Tools: React, Sass, Google Cloud Platform" 
             githubLink="https://github.com/aaronbadilla/numinous-realities"/>
+          <ProjectCard
+            title='VCEH'
+            webLink='https://helpingtohousevt.org/'
+            image={vceh}
+            blurb='Vermont Nonprofit Organization'
+            writtenWith="Work: design tweaks, Wordpress maintenance, and plugin updates"
+            noCode
+          />
           <ProjectCard 
             title="E-Commerce Demo Site" 
             webLink="https://crwn-live-aaronbadilla.herokuapp.com/" 
@@ -74,6 +84,19 @@ const Portfolio = () => {
             writtenWith="Tools: CSS, Bootstrap." 
             githubLink="https://github.com/aaronbadilla/teladog"/>
           <ProjectCard 
+            title="Memory Game Web App" 
+            webLink="https://aaronbadilla.github.io/memoryapp/" 
+            image={memoryapp} blurb="A zen memory game" 
+            writtenWith="Tools: Javascript, jQuery." 
+            githubLink="https://github.com/aaronbadilla/memoryapp"/>
+          <ProjectCard 
+            title="Demo Blog Website" 
+            webLink="https://hidden-brushlands-47558.herokuapp.com/" 
+            image={blogwebsite} 
+            blurb="A website to blog about anything!" 
+            writtenWith="Tools: Node.js, Express, EJS" 
+            githubLink="https://github.com/aaronbadilla/blogwebsite"/>
+          <ProjectCard 
             title="Dice Game Web App" 
             webLink="https://aaronbadilla.github.io/dicegame/" 
             image={diceegame} 
@@ -87,19 +110,7 @@ const Portfolio = () => {
             blurb="A keyboard controlled drum kit!" 
             writtenWith="Tools: VanillaJS." 
             githubLink="https://github.com/aaronbadilla/drumkit"/>
-          <ProjectCard 
-            title="Demo Blog Website" 
-            webLink="https://hidden-brushlands-47558.herokuapp.com/" 
-            image={blogwebsite} 
-            blurb="A website to blog about anything!" 
-            writtenWith="Tools: Node.js, Express, EJS" 
-            githubLink="https://github.com/aaronbadilla/blogwebsite"/>
-          <ProjectCard 
-            title="Memory Game Web App" 
-            webLink="https://aaronbadilla.github.io/memoryapp/" 
-            image={memoryapp} blurb="A zen memory game" 
-            writtenWith="Tools: Javascript, jQuery." 
-            githubLink="https://github.com/aaronbadilla/memoryapp"/>
+
         </Grid>
       </div>
       <div className="custom-shape-divider-bottom-1642098124">
