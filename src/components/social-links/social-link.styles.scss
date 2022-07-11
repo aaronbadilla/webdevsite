@@ -1,0 +1,29 @@
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px 5px 20px;
+    margin: auto;
+    width: 350px;
+    height: 125px;
+    text-align: center;
+    text-decoration: none;
+    margin: 30px 10px;
+    border-radius: 3%;
+    transition: .5s ease;
+
+    &:hover {
+    background-color: #fafafa;
+    transform: scale(1.1);
+    }
+
+    .social-link-image {
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+    }
+
+    .social-link-text {
+    margin-left: 10px;
+    }
+}

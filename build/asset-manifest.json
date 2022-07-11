@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/webdevsite/static/css/main.a7649a72.chunk.css",
-    "main.js": "/webdevsite/static/js/main.52d9f56b.chunk.js",
-    "main.js.map": "/webdevsite/static/js/main.52d9f56b.chunk.js.map",
+    "main.js": "/webdevsite/static/js/main.75f1fac4.chunk.js",
+    "main.js.map": "/webdevsite/static/js/main.75f1fac4.chunk.js.map",
     "runtime-main.js": "/webdevsite/static/js/runtime-main.66730dc0.js",
     "runtime-main.js.map": "/webdevsite/static/js/runtime-main.66730dc0.js.map",
     "static/js/2.b4b55a35.chunk.js": "/webdevsite/static/js/2.b4b55a35.chunk.js",
@@ -11,20 +11,21 @@
     "static/css/main.a7649a72.chunk.css.map": "/webdevsite/static/css/main.a7649a72.chunk.css.map",
     "static/js/2.b4b55a35.chunk.js.LICENSE.txt": "/webdevsite/static/js/2.b4b55a35.chunk.js.LICENSE.txt",
     "static/media/AaronCircle.4c0902bb.png": "/webdevsite/static/media/AaronCircle.4c0902bb.png",
-    "static/media/Official-Logo-Website-Pink.0130b48d.png": "/webdevsite/static/media/Official-Logo-Website-Pink.0130b48d.png",
     "static/media/blogwebsite.7a55a35a.png": "/webdevsite/static/media/blogwebsite.7a55a35a.png",
     "static/media/crwnclothing.5ccc378e.png": "/webdevsite/static/media/crwnclothing.5ccc378e.png",
     "static/media/diceegame.1c6a73f0.png": "/webdevsite/static/media/diceegame.1c6a73f0.png",
     "static/media/drumkit.7ee87490.png": "/webdevsite/static/media/drumkit.7ee87490.png",
+    "static/media/flamingo-coin-screenshot.33389fb1.png": "/webdevsite/static/media/flamingo-coin-screenshot.33389fb1.png",
     "static/media/memoryapp.3f26119a.png": "/webdevsite/static/media/memoryapp.3f26119a.png",
     "static/media/resume.4a4a4d27.png": "/webdevsite/static/media/resume.4a4a4d27.png",
     "static/media/secretsapp.80283a38.png": "/webdevsite/static/media/secretsapp.80283a38.png",
-    "static/media/teladog.a3662c1f.png": "/webdevsite/static/media/teladog.a3662c1f.png"
+    "static/media/teladog.a3662c1f.png": "/webdevsite/static/media/teladog.a3662c1f.png",
+    "static/media/vceh.3ad81f8c.png": "/webdevsite/static/media/vceh.3ad81f8c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.66730dc0.js",
     "static/js/2.b4b55a35.chunk.js",
     "static/css/main.a7649a72.chunk.css",
-    "static/js/main.52d9f56b.chunk.js"
+    "static/js/main.75f1fac4.chunk.js"
   ]
 }
