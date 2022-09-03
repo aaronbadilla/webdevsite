@@ -33,6 +33,15 @@
     margin: auto;
     position: relative;
     opacity: 0;
+
+    .portfolio-header {
+      text-align: center;
+      margin: 0;
+      font-family: "Montserrat", sans-serif;
+      font-size: 3rem;
+      color: white;
+      font-weight: 900;
+    }
   }
 
   .animate-portfolio {

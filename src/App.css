@@ -3,46 +3,11 @@
     text-align: center;
     margin: 0;
     line-height: 2;
-    font-weight: 900;
-  }
-  
-  h1 {
-    text-align: center;
-    margin: 0 auto 0 auto;
-    font-family: "Caveat", cursive;
-    font-size: 5.625rem;
-    color: #3f93e8;
-  }
-  
-  h2 {
-    text-align: center;
-    margin: 0;
-    font-family: "Montserrat", sans-serif;
-    font-size: 3rem;
-    color: #3f93e8;
-    font-weight: 900;
   }
   
   h3 {
     color: #004994;
     font-family: "Montserrat", sans-serif;
-  }
-  
-  h4 {
-    display: inline-block;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1em;
-    color: #fafafa;
-    margin-left: 20px;
-    margin-right: 20px
-  }
-  
-  h5 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
-    color: #3f93e8;
-    margin-top: auto;
-    margin-bottom: auto;
   }
   
   p {
@@ -51,21 +16,8 @@
     color: #40514e;
   }
   
-  hr {
-    width: 4%;
-    border-style: dotted none none none;
-    color: #fafafa;
-    border-spacing: 2px;
-    border-width: 6px;
-    margin: 30px auto;
-  }
-  
   a {
     color: #3f93e8;
-  }
-  
-  body {
-
   }
 
 

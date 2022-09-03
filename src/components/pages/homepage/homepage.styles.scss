@@ -5,6 +5,23 @@
     padding-top: 120px;
     position: relative;
     height: 100vh;
+
+    .intro-banner {
+      text-align: center;
+      margin: 0 auto 0 auto;
+      font-family: "Caveat", cursive;
+      font-size: 5.625rem;
+      color: #3f93e8;
+    }
+
+    .sub-intro-banner {
+      text-align: center;
+      margin: 0;
+      font-family: "Montserrat", sans-serif;
+      font-size: 3rem;
+      color: #3f93e8;
+      font-weight: 900;
+    }
   }
 
   .homepage-text {

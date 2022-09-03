@@ -1,7 +1,16 @@
   /* SKILLS */
 
   .skills-title {
-    opacity: 0
+    opacity: 0;
+    
+    .skills-header {
+      text-align: center;
+      margin: 0;
+      font-family: "Montserrat", sans-serif;
+      font-size: 3rem;
+      color: #3f93e8;
+      font-weight: 900;
+    }
   }
 
   .animate-skills-title {
@@ -18,10 +27,20 @@
     }
   }
 
+  .skills-header {
+    text-align: center;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    color: #3f93e8;
+    font-weight: 900;
+  }
+
   .skill-section {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center
+    justify-content: center;
+    align-items: center;
   }
 
   .skill-row {
@@ -30,7 +49,8 @@
     align-items: center;
     justify-content: center;
     width: 800px;
-    margin: 80px auto 80px auto;
+    height: 250px;
+    margin: 40px auto 40px auto;
     text-align: left;
     line-height: 2;
 
@@ -41,10 +61,12 @@
     @media only screen and (max-width: 640px) {
       width: 400px;
       margin: 40px auto 40px auto;
+      flex-flow: column;
+      height: auto;
   }
 
     @media only screen and (max-width: 430px) {
-    width: 300px;
+    width: 280px;
     
     }
 
@@ -53,7 +75,7 @@
   .skill-row-text {
     width: 70%;
     opacity: 0;
-    margin: -200px;
+    margin-right: -500px;
 
     @media only screen and (max-width: 640px) {
       width: 400px;
@@ -65,7 +87,7 @@
   }
 
   .animate-skill-row-text {
-    animation: fade-skill-row-text 1s ease-out forwards, slide-skill-row-text 1s ease-out forwards;
+    animation: fade-skill-row-text .5s .75s ease-out forwards, slide-skill-row-text 1s ease-out forwards;
 
     @keyframes fade-skill-row-text {
         from {
@@ -79,11 +101,11 @@
 
     @keyframes slide-skill-row-text {
         from {
-          margin: -200px;
+          margin-right: -500px;
         }
 
         to {
-          margin: 0px;
+          margin: 0;
         }
     }
 
@@ -102,30 +124,15 @@
     color: #3f93e8;
   }
   
-  .pen-img {
-    width: 140px;
+  .skill-img {
+    width: 150px;
     z-index: 1;
     padding: 0 30px 0 30px;
 
     @media only screen and (max-width: 800px) {
       padding: 0 30px 0 10px;
-  }
-
-  @media only screen and (max-width: 640px) {
-    order: 0;
-    padding: 0
-}  
-  }
-  
-  .computer-img {
-    width: 170px;
-    z-index: 1;
-    padding-left: 10px;
-
-    @media only screen and (max-width: 640px) {
       order: 0;
       padding: 0
-  }
-
+    }
   }
   

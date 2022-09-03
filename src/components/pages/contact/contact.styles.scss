@@ -6,7 +6,20 @@
     opacity: 0;
     @media only screen and (max-width: 700px) {
       padding: 50px 0 100px 0
-  }
+    }
+
+    @media only screen and (max-width: 300px) {
+      width: 100%;
+    }
+
+    .contact-header {
+      text-align: center;
+      margin: 0;
+      font-family: "Montserrat", sans-serif;
+      font-size: 3rem;
+      color: #3f93e8;
+      font-weight: 900;
+    }
   }
   
   .contact {
@@ -26,6 +39,10 @@
     @media only screen and (max-width: 700px) {
       width: 350px
   }
+
+  @media only screen and (max-width: 300px) {
+    width: 100%
+}
   }
   
   .explain-contact {
@@ -38,7 +55,11 @@
 
     @media only screen and (max-width: 700px) {
       width: 350px
-  }
+  };
+
+    .email-cta-text {
+      color: #004994;   
+    }
   }
   
   .explain-contact img {

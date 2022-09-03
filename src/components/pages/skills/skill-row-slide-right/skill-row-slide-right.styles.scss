@@ -1,0 +1,48 @@
+.skill-row-text-right {
+    width: 70%;
+    opacity: 0;
+    margin-right: -500px;
+
+    @media only screen and (max-width: 640px) {
+      width: 400px;
+      margin: auto;
+      opacity: 1;
+      order: 1;
+      padding-top: 40px;
+  }
+
+    @media only screen and (max-width: 400px) {
+        width: 280px;
+    }
+}
+
+.animate-skill-row-text-right {
+
+    @media only screen and (min-width: 640px) {
+        animation: fade-skill-row-text .5s .75s ease-out forwards, slide-skill-row-text-right 1s ease-out forwards;
+    }
+
+    @keyframes fade-skill-row-text {
+        from {
+            opacity: 0;
+        }
+      
+        to {
+            opacity: 1;
+        }    
+    }
+
+    @keyframes slide-skill-row-text-right {
+        from {
+          margin-right: -500px;
+        }
+
+        to {
+          margin: 0;
+        }
+    }
+
+    @media only screen and (max-width: 640px) {
+      animation: fade-skill-row-text 1s ease-out forwards,
+  }
+  }  
